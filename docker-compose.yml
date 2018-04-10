@@ -1,4 +1,5 @@
 app:
+    restart: always
     build: .
     environment:
         REALM: prod
@@ -9,4 +10,5 @@ app:
         - "8000:8000"
 
 redis:
+    restart: always
     image: redis
