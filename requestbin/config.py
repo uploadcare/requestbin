@@ -29,7 +29,7 @@ REDIS_PREFIX = "requestbin"
 
 if REALM == 'prod':
     DEBUG = False
-    ROOT_URL = "http://requestb.in"
+    ROOT_URL = "http://requestbin.uploadcare.com"
 
     FLASK_SESSION_SECRET_KEY = os.environ.get("SESSION_SECRET_KEY", FLASK_SESSION_SECRET_KEY)
 
